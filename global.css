@@ -1,9 +1,102 @@
 @import "colors.css";
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 
-.test {
-    color: var(--text-color-light-bg);
+:root{
+    --default-radius: 15px;
 }
 
 body {
     background-color: var(--color-bg);
+    margin: 0 auto;
+    color: var(--text-color-light-bg);
+    font-family: Roboto;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-button {
+
+}
+
+.action-button {
+
+}
+
+.hyperlink {
+    color: var(--text-color-light-bg);
+    text-decoration: none;
+}
+
+input {
+    display: inline-block;
+    border-radius: var(--default-radius);
+    width: calc(100% - 30px);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 7.5px 15px;
+    color: var(--text-color-light-bg);
+}
+input:focus{
+    outline: none;
+}
+
+input[type=text], input[type=password]{
+    background-color: var(--color-bg);
+    border: 2px solid var(--color-primary) ;
+}
+
+input[type=submit]{
+    box-sizing: border-box;
+    background-color: var(--color-primary);
+    border: none;
+    font-weight: bold;
+}
+
+.nav-button {
+    display: inline-block;
+    border-radius: var(--default-radius);
+    width: calc(100% - 30px);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 7.5px 15px;
+    color: var(--text-color-light-bg);
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    width: min(640px, 100%);
+    margin: 150px auto;
+    height: 200px;
+
+}
+
+.register-box {
+    position: absolute;
+    width: 100%;
+    height: 205px;
+    border-radius: var(--default-radius) var(--default-radius) 0px 0px;
+    background-color: var(--color-primary);
+    top: calc(100% - 205px);
+    left: 0%;
+    color: var(--text-color-light-bg);
+    text-align: center;
+}
+
+.register-box-text {
+    font-size: large;
+}
+
+.register-button {
+    background-color: var(--color-bg);
+    color: var(--text-color-light-bg);
 }

@@ -7,6 +7,7 @@
     --color-important:      #f9dc5c;
     --color-proceed:        #90ff75;
     --color-neutral:        #aeb4c3;
+    --color-neutral-light:  #fff;
     
     --text-color-light-bg:  #050511;
     --text-color-dark-bg:   #eeeeff;
@@ -21,6 +22,7 @@
     --color-important:      #d9bc3c;
     --color-proceed:        #63c34a;
     --color-neutral:        #707580;
+    --color-neutral-light:  #fff;
     
     --text-color-dark-bg:   #050511;
     --text-color-light-bg:  #eeeeff;
