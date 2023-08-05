@@ -1,0 +1,50 @@
+@import "colors.css";
+
+body {
+    background: var(--color-bg);
+}
+
+.wrapper {
+    position: absolute; 
+    width: 77vw; 
+    height: 50vh;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+.pallete {
+    width: 10vw;
+    height: 500px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    /* background-color: #000000; */
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--color-text-light-bg);
+}
+
+.color1{
+    background-color: var(--color-primary-light);
+}
+.color2{
+    background-color: var(--color-primary);
+}
+.color3{
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-dark-bg);
+}
+.color4{
+    background-color: var(--color-warning);
+}
+.color5{
+    background-color: var(--color-important);
+}
+.color6{
+    background-color: var(--color-proceed);
+}
+.color7{
+    background-color: var(--color-neutral);
+}

@@ -1,0 +1,57 @@
+@import "global.css";
+
+
+
+.login-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    width: min(480px, 100%);
+    margin: 0 auto;
+    height: 200px;
+
+}
+
+@media only screen and (min-width: 640px) {
+    .login-form{
+        width:480px;
+        position: absolute;
+        top:40%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+.register-box {
+    position: absolute;
+    width: 100%;
+    height: 205px;
+    border-radius: var(--default-radius) var(--default-radius) 0px 0px;
+    background-color: var(--color-primary);
+    top: calc(100% - 125px);
+    left: 0%;
+    color: var(--text-color-light-bg);
+    text-align: center;
+}
+
+.register-box-text {
+    font-size: large;
+}
+
+.register-button {
+    width: min(480px, calc(100% - 30px));
+    background-color: var(--color-bg);
+    color: var(--text-color-light-bg);
+}

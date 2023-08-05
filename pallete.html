@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pallete.css">
+    <script >
+        var counter = 0;
+        function toggleDarkMode(){
+
+            counter+=1;
+            var toSet = "light";
+
+            if(counter%2==1){
+                toSet = "dark";
+            }
+
+            let htmlElement = document.documentElement;
+            htmlElement.setAttribute('data-theme', toSet);
+            
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" id="switch" class="checkbox" onclick="toggleDarkMode()"/>
+    <div class="wrapper">
+        <div class="pallete color1"><p>primary light</p></div>
+        <div class="pallete color2"><p>primary regular</p></div>
+        <div class="pallete color3"><p>primary dark</p></div>
+        <div class="pallete color4"><p>warning</p></div>
+        <div class="pallete color5"><p>important </p></div>
+        <div class="pallete color6"><p>proceed</p></div>
+        <div class="pallete color7"><p>neutral</p></div>
+    </div>
+</body>
+</html>
