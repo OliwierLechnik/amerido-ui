@@ -1,0 +1,9 @@
+@import "colors.css";
+
+.test {
+    color: var(--text-color-light-bg);
+}
+
+body {
+    background-color: var(--color-bg);
+}
