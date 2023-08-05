@@ -75,7 +75,7 @@ input[type=submit]{
 
 .login-box {
     width: min(640px, 100%);
-    margin: 150px auto;
+    margin: 0px auto;
     height: 200px;
 
 }
