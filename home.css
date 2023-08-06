@@ -1,1 +1,64 @@
-@import "global.css"
+@import "global.css";
+
+
+.bottom-navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    color: var(--text-color-light-bg);
+    background-color: var(--color-primary-dark);
+}
+
+.option {
+    width: 33.3%;
+    float: left;
+    display: flex;
+    /* background-color: var(--color-primary-dark); */
+}
+
+.picked-bg {
+    position: fixed;
+    background-color: var(--color-bg);
+    width: 33.4%;
+    bottom: 0;
+    height: 50px;
+    left: 33.3%;
+    /* border-radius: 0 0 var(--default-radius) var(--default-radius); */
+}
+
+.pictogram {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: var(--color-bg);
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0px;
+    z-index: 999;
+}
+
+.content {
+    position: fixed;
+}
+.card-docs{
+    left: -100%;
+}
+.card-profile {
+    left: 100%;
+}
+.card-bank{
+    left: 0px;
+}
+
+.color-box-1{
+    background-color: var(--color-warning);
+}
+.color-box-2{
+    background-color: var(--color-important);
+}
+.color-box-3{
+    background-color: var(--color-proceed);
+}

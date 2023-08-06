@@ -5,8 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
     <script src="theme.js"></script>
+    <script src="home.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="wrapper"></div>
+    <div class="content card-profile" id="card-0">
+        <div class="color-box-1">
+            <p>card 1</p>
+        </div>
+    </div>
+    <div class="content card-bank" id="card-1">
+        <div class="color-box-2">
+            <p>card 2</p>
+        </div>
+    </div>
+    <div class="content card-docs" id="card-2">
+        <div class="color-box-3">
+            <p>card 3</p>
+        </div>
+    </div>
+    <!-- <div class="bottom-bg"></div> -->
+    <div class="bottom-navbar">
+        <div class="picked-bg" id="picked-bg"></div>
+        <div class="option option-profile" onclick="focusMe(0)">
+            <div class="pictogram">
+                <p>1</p>
+            </div>
+        </div>
+        <div class="option option-bank" onclick="focusMe(1)">
+            <div class="pictogram">
+                <p>2</p>
+            </div>
+        </div>
+        <div class="option option-docs" onclick="focusMe(2)">
+            <div class="pictogram">
+                <p>3</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
