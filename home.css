@@ -8,7 +8,7 @@
     bottom: 0px;
     left: 0px;
     color: var(--text-color-light-bg);
-    background-color: var(--color-primary-dark);
+    background-color: var(--color-primary);
 }
 
 .option {
@@ -42,6 +42,9 @@
 
 .content {
     position: fixed;
+    width: calc(100%);
+    margin: auto;
+    height: calc(100%-200px);
 }
 .card-docs{
     left: -100%;
