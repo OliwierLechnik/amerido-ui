@@ -19,15 +19,15 @@ function focusMe(i) {
     }
     if(prevId > i){
         cards[prevId].style.left = `-${screen.width}px`;
-        cards[prevId].style.transition = `left 0.33s ease`;
+        cards[prevId].style.transition = `left 0.2s ease`;
         cards[i].style.left = 0;
-        cards[i].style.transition = `left 0.33s ease`;
+        cards[i].style.transition = `left 0.2s ease`;
     }
     if(prevId < i){
         cards[prevId].style.left = `${screen.width}px`;
-        cards[prevId].style.transition = `left 0.33s ease`;
+        cards[prevId].style.transition = `left 0.2s ease`;
         cards[i].style.left = 0;
-        cards[i].style.transition = `left 0.33s ease`;
+        cards[i].style.transition = `left 0.2s ease`;
     }
 ;
   

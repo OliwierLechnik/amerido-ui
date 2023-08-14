@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 
 :root{
-    --default-radius: 15px;
+    --default-radius: 7.5px;
 }
 
 html {
